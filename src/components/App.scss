@@ -1,0 +1,22 @@
+@use '../styles/variables' as var;
+
+body {
+  background-color: var.$dark;
+  color: var.$light;
+  font-family: var.$content-font-family;
+  letter-spacing: 0.1rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    height: 48px;
+  }
+}
+
+h1 {
+  font-family: var.$title-font-family;
+  text-transform: uppercase;
+}
